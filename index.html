@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <nav>
+                    <img src="IMAGE/logo.png" alt="Logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span style="color: red;" >Durgesh</span><br> Gupta From India</h1>
+                </div>
+            </div>
+
+    </div>
+
+    <!--------------------About Me---------------------------->
+      
+      
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="IMAGE/new.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus delectus facilis ducimus quidem, numquam porro labore debitis cumque incidunt fuga eligendi, fugiat voluptatum dicta tenetur, quia reprehenderit! Libero, quos voluptates?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><BR>Designing web /App interfaces</li>
+                            <li><span>Web Development</span><BR>Web app development</li>
+                            <li><span>App Development</span><BR>Building android /ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><BR>UI/UX Desingn Traning at ET Instute</li>
+                            <li><span>2019 - 2021</span><BR>Team lead at StarApp LLC</li>
+                            <li><span>2017-2019</span><BR>UI/UX Design Executive at coin Digital ltd .</li>
+                                <li><span>2016-2017</span><BR>Intership at ekart eCommerce </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><BR>Bachlor of computer application at Maharishi University </li>
+                            <li><span>2022</span><BR>12th From Masih Sevashram Inter College</li>
+                            <li><span>2020</span><BR>10th From Masih Sevashram Inter College</li>
+                        </ul>
+                    </div>
+             </div>
+                </div>
+            </div>
+         </div>
+
+        <!--------------------------Services--------------------------->
+
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-solid fa-code" style="font-size: 40px; margin-bottom: 40px;"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, doloremque!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pen" style="font-size: 40px; margin-bottom: 40px;"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, doloremque!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-connectdevelop" style="font-size: 40px; margin-bottom: 40px;"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, doloremque!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------Portfolio--------------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="IMAGE/work1.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, tenetur. Vel, accusantium unde. Earum iste maiores hic omnis pariatur numquam.</p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="IMAGE/work 2.webp">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis, obcaecati tenetur delectus ducimus incidunt veniam in similique, magni fugit deserunt similique minima optio.</p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="IMAGE/work 3.jpg">
+                        <div class="layer">
+                            <h3>Online Shoping App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, eaque.</p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div> 
+                
+                <a href="#" class="btn">See more</a>
+            </div> 
+        </div>
+
+
+
+        <!--------------------------Contact--------------------------->
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>durgeshgupta10516@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>  +91- 6306212417</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        </div>
+                        <a href="IMAGE/resume.rtf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+            <p>Copyright Durgesh. Made with <i class="fa-solid fa-heart"></i> the portfolio</p>
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+         <script>
+
+            var tablinks =document.getElementsByClassName("tab-links");
+            var tabcontents =document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+         </script>
+
+         <script>
+
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+
+         </script>
+        
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby8rGQM-3blcTrvGn-4ECro9lvER9zRac--DVbEIX2jLP7pzLavd7kc0yh0q4FjiyY/exec'
+            const form = document.forms['submit-to-google-sheet']
+          const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
